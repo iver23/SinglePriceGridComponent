@@ -1,0 +1,78 @@
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+main {
+  padding: 30px;
+}
+
+main h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+main h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+main p {
+  color: hsl(218, 22%, 67%);
+}
+
+.container {
+  display: flex;
+}
+
+.subscription {
+  background-color: rgb(43, 179, 177);
+  padding: 30px;
+  border-radius: 0px 0px 0px 7px;
+  /* flex-grow: 1; */
+}
+
+.contact h2,
+.subscription h2 {
+  color: hsl(204, 43%, 93%);
+}
+
+.contact p {
+  margin: 0.5em;
+  color: hsl(204, 43%, 93%);
+  font-size: 0.9rem;
+}
+
+.price {
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+  font-size: 1.3rem;
+}
+
+.day_price {
+  color: hsl(204, 43%, 93%);
+}
+
+.periode {
+  color: hsl(204, 43%, 93%);
+  font-size: 0.9rem;
+}
+
+.signup_btn {
+  text-decoration: none;
+  padding: 10px 90px;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 3px;
+  color: hsl(204, 43%, 93%);
+  box-shadow: 10px 10px 28px -15px rgba(0, 0, 0, 0.75);
+}
+
+.contact {
+  background-color: rgb(74, 190, 189);
+  padding: 30px;
+  border-radius: 0px 0px 7px 0px;
+  /* flex-grow: 1; */
+}
+
+li {
+  list-style: none;
+  color: hsl(204, 43%, 93%);
+}
