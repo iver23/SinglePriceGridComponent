@@ -3,6 +3,14 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+.body-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+  box-shadow: 0 4px 80px rgba(0, 0, 0, 0.493);
+  border-radius: 7px;
+}
+
 main {
   padding: 30px;
 }
@@ -17,6 +25,7 @@ main h2 {
 
 main p {
   color: hsl(218, 22%, 67%);
+  line-height: 1.5em;
 }
 
 .container {
@@ -27,24 +36,27 @@ main p {
   background-color: rgb(43, 179, 177);
   padding: 30px;
   border-radius: 0px 0px 0px 7px;
+  width: 50%;
   /* flex-grow: 1; */
 }
 
 .contact h2,
 .subscription h2 {
   color: hsl(204, 43%, 93%);
+  font-size: 1rem;
 }
 
 .contact p {
   margin: 0.5em;
   color: hsl(204, 43%, 93%);
   font-size: 0.9rem;
+  line-height: 1.3rem;
 }
 
 .price {
   font-weight: 700;
   color: hsl(204, 43%, 93%);
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 .day_price {
@@ -52,11 +64,12 @@ main p {
 }
 
 .periode {
-  color: hsl(204, 43%, 93%);
+  color: hsla(203, 44%, 93%, 0.678);
   font-size: 0.9rem;
 }
 
 .signup_btn {
+  display: block;
   text-decoration: none;
   padding: 10px 90px;
   background-color: hsl(71, 73%, 54%);
@@ -69,6 +82,7 @@ main p {
   background-color: rgb(74, 190, 189);
   padding: 30px;
   border-radius: 0px 0px 7px 0px;
+  width: 50%;
   /* flex-grow: 1; */
 }
 
