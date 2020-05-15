@@ -6,7 +6,7 @@ body {
 .body-container {
   margin-right: auto;
   margin-left: auto;
-  width: 600px;
+  max-width: 600px;
   box-shadow: 0 4px 80px rgba(0, 0, 0, 0.493);
   border-radius: 7px;
 }
@@ -34,7 +34,7 @@ main p {
 
 .subscription {
   background-color: rgb(43, 179, 177);
-  padding: 30px;
+  padding: 20px 30px;
   border-radius: 0px 0px 0px 7px;
   width: 50%;
   /* flex-grow: 1; */
@@ -70,8 +70,9 @@ main p {
 
 .signup_btn {
   display: block;
+  text-align: center;
   text-decoration: none;
-  padding: 10px 90px;
+  padding: 4% 12%;
   background-color: hsl(71, 73%, 54%);
   border-radius: 3px;
   color: hsl(204, 43%, 93%);
@@ -80,7 +81,7 @@ main p {
 
 .contact {
   background-color: rgb(74, 190, 189);
-  padding: 30px;
+  padding: 20px 30px;
   border-radius: 0px 0px 7px 0px;
   width: 50%;
   /* flex-grow: 1; */
@@ -89,4 +90,33 @@ main p {
 li {
   list-style: none;
   color: hsl(204, 43%, 93%);
+}
+
+/* Mobile View */
+@media (max-width: 375px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .subscription {
+    width: 100%;
+    border-radius: 0px 0px;
+  }
+
+  .contact {
+    width: 100%;
+    border-radius: 0px 0px 7px 7px;
+  }
+
+  main h1 {
+    font-size: 21px;
+  }
+
+  main h2 {
+    font-size: 17px;
+  }
+
+  main p {
+    font-size: 15px;
+  }
 }
